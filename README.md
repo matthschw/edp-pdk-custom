@@ -1,2 +1,1 @@
 # edp-pdk-custom
-property
