@@ -13,6 +13,7 @@ public class CustomNetlistingEngine extends NetlistingEngine {
   @Override
   public boolean isDescribed(final InstanceNetlistingHandle handle) {
     // TODO
+    return false;
   }
 
   @Override

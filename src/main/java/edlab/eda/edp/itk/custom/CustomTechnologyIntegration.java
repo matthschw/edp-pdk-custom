@@ -10,22 +10,26 @@ public class CustomTechnologyIntegration extends TechnologyIntegration {
   @Override
   public boolean hasNetlistingEngine(final String simulator) {
     // TODO
+    return false;
   }
 
-  @Override
   public NetlistingEngine getNetlistingEngine(final String simulator,
-   // TODO
+      final Formatter formatter) {
+    // TODO
+    return null;
   }
 
   @Override
   public boolean hasCallbackEngine(final String libName,
       final String cellName) {
     // TODO
+    return false;
   }
 
   @Override
   public CallbackEngine getCallbackEngine(final String libName,
       final String cellName) {
     // TODO
+    return null;
   }
 }
